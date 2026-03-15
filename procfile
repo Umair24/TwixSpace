@@ -1,1 +1,1 @@
-web: gunicorn TwixSpace.TwixSpace.wsgi:application
+web: cd TwixSpace && gunicorn TwixSpace.wsgi:application
