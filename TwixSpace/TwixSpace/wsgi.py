@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TwixSpace.settings')
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TwixSpace.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TwixSpace.TwixSpace.settings')
 
 application = get_wsgi_application()
